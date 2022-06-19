@@ -1,0 +1,48 @@
+.hero {
+  text-align: center;
+  position: relative;
+}
+
+.hero img {
+  width: 100%;
+}
+
+.hero-item {
+  padding: 1rem;
+  display: grid;
+  gap: 1rem;
+}
+
+.hero-item .title {
+  font-size: 2.5rem;
+}
+
+.hero-item .button {
+  width: 50%;
+}
+
+@media (min-width: 1024px) {
+  .hero {
+    padding: 1rem;
+    display: grid;
+    grid-template-areas: "item image";
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+  .hero-item {
+    grid-area: item;
+    text-align: left;
+    align-self: center;
+  }
+
+  .hero-item .title {
+    font-size: 3rem;
+  }
+  .hero-item .desc {
+    font-size: 1.3rem;
+  }
+
+  .image {
+    grid-area: image;
+  }
+}

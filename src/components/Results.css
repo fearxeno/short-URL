@@ -1,0 +1,36 @@
+.results.container {
+  display: none;
+}
+
+.results.container.active {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2rem;
+  gap: 1rem;
+  background-color: var(--clr-white);
+  box-shadow: 0px 0px 12px -5px rgba(49, 49, 49, 1);
+  border-radius: 1rem;
+  margin: 2rem;
+}
+
+.results.container.active .link {
+  color: var(--primary-clr-cyan);
+}
+
+.button.copy {
+  background-color: var(--primary-clr-dark);
+}
+@media (min-width: 1024px) {
+  .results.container.active {
+    flex-direction: row;
+    gap: 0;
+    padding: 1rem;
+    align-items: center;
+    font-size: 1.2rem;
+  }
+
+  .results.container.active .button {
+    width: 20%;
+  }
+}
