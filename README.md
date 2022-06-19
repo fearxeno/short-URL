@@ -7,13 +7,13 @@ This is a solution to the [Shortly URL shortening API Challenge challenge on Fro
 ![desktop](https://user-images.githubusercontent.com/100607729/174495325-c1d59972-a07d-48ee-a4ea-2bc90316f856.png)
 
 
-### Usage 
+### Usage
 User can:
 - Shorten any valid URL
 - See their shortened links and copy it to clipboard
 - Receive an error message when they don't enter a valid URL
 
-### Built with
+### Built with:
 
 - Semantic HTML5 markup
 - CSS custom properties
